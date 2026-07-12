@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nosso Último Capítulo ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- TELA DE ABERTURA -->
+
+<div id="intro" class="intro">
+
+    <div class="intro-content">
+
+        <h2>Minha Vida...</h2>
+
+        <p>
+            Nossa história ainda não chegou ao fim. Merecemos uma nova chance.
+        </p>
+
+        <p>
+            Te amo S2
+        </p>
+
+        <button id="btnComecar">
+            ❤️ Começar
+        </button>
+
+    </div>
+
+</div>
+
+<!-- FUNDO -->
+
+<div class="background"></div>
+<div class="overlay"></div>
+
+<!-- CONTEÚDO -->
+
+<main class="container" id="tela-principal">
+
+    <h1 class="titulo">
+        QUE SEJA LINDO NOSSO FUTURO
+    </h1>
+
+    <p class="subtitulo">
+        Esta chegando a hora...
+    </p>
+
+    <div class="contador">
+
+        <span id="hora1">0</span>
+        <span id="hora2">0</span>
+        :
+        <span id="minutos">00</span>
+        :
+        <span id="segundos">00</span>
+
+    </div>
+
+    <p class="textoContador">
+        Algumas palavras precisam esperar o momento certo.
+    </p>
+
+    <div class="capitulos" id="container-cards">
+
+        <a id="cap1" style="cursor: pointer;" class="card liberado">
+
+            <h3>❤️ Capítulo I</h3>
+
+            <p>Onde tudo começou</p>
+
+            <div class="status">
+                ✅ Disponível
+            </div>
+
+        </a>
+
+        <a id="cap2" style="cursor: pointer;" class="card bloqueado">
+
+            <h3>❤️ Capítulo II</h3>
+
+            <p>Nossas memórias</p>
+
+            <div class="status">
+                ⏳ Calculando...
+            </div>
+
+        </a>
+
+        <a id="cap3" style="cursor: pointer;" class="card bloqueado">
+
+            <h3>❤️ Capítulo III</h3>
+
+            <p>Os erros que reconheço</p>
+
+            <div class="status">
+                🔒 Em breve
+            </div>
+
+        </a>
+
+        <a id="cap4" style="cursor: pointer;" class="card bloqueado">
+
+            <h3>❤️ Capítulo IV</h3>
+
+            <p>O que mudou em mim</p>
+
+            <div class="status">
+                🔒 Em breve
+            </div>
+
+        </a>
+
+        <a id="cap5" style="cursor: pointer;" class="card bloqueado">
+
+            <h3>❤️ Capítulo V</h3>
+
+            <p>O futuro que imagino</p>
+
+            <div class="status">
+                🔒 Em breve
+            </div>
+
+        </a>
+
+        <a id="cap6" style="cursor: pointer;" class="card bloqueado">
+
+            <h3>❤️ Capítulo Final</h3>
+
+            <p>Meu pedido</p>
+
+            <div class="status">
+                🔒 Em breve
+            </div>
+
+        </a>
+
+    </div>
+
+    <!-- ELEMENTOS ADICIONADOS APENAS PARA EXIBIR OS TEXTOS SEM MUDAR DE PÁGINA -->
+    <div id="container-leitura" style="display: none; text-align: left; margin-top: 20px;">
+        <button id="btnVoltar" style="cursor: pointer; margin-bottom: 20px; padding: 8px 16px;">⬅ Voltar</button>
+        <div id="conteudo-dinamico"></div>
+    </div>
+
+</main>
+
+<button id="btnMusica">
+    🎵
+</button>
+
+<audio id="musica" loop>
+    <source src="audio/musica.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
